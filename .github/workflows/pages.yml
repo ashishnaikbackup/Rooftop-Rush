@@ -1,8 +1,7 @@
 name: Deploy Rooftop Rush to GitHub Pages
 
+# Keep deployment manual until the real game source is committed as index.html.
 on:
-  push:
-    branches: ["main"]
   workflow_dispatch:
 
 permissions:
